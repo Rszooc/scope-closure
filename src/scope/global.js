@@ -12,6 +12,8 @@ const anotherFunction = () => {
 anotherFunction();
 
 const helloWorld = () => {
-    globalVar = 
+    globalVar = 'Variable global';
 }
+helloWorld();
+console.log(globalVar);
 
